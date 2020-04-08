@@ -1,0 +1,28 @@
+<settings>
+  <id>SettingsInfoImpl-77a3f515:17155cf07f8:-7ff3</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-77a3f515:17155cf07f8:-7ff6</id>
+    <name>focgeo</name>
+    <isolated>true</isolated>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <contactEmail>andrew_clark@strategies.org</contactEmail>
+    <contactOrganization>Institute for Global Environmental Strategies</contactOrganization>
+    <contactPerson>Andrew Clark</contactPerson>
+    <contactPosition>Engineer</contactPosition>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>4</numDecimals>
+  <verbose>true</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+</settings>
