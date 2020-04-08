@@ -212,7 +212,7 @@ filter should be set at all. Default is true
 * `XFRAME_OPTIONS="true"`
 * Tomcat properties:
 
-  * You can change the variables based on [geoserver container considerations](http://docs.geoserver.org/stable/en/user/production/container.html). These arguments operate on the `-Xms` and `-Xmx` options of the Java Virtual Machine
+  * You can change the variables based on [geoserver container considerations](http://docs.geoserver.org/2.16.x/en/user/production/container.html). These arguments operate on the `-Xms` and `-Xmx` options of the Java Virtual Machine
   * `INITIAL_MEMORY=<size>` : Initial Memory that Java can allocate, default `2G`
   * `MAXIMUM_MEMORY=<size>` : Maximum Memory that Java can allocate, default `4G`
 

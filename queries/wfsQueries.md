@@ -1,5 +1,5 @@
 # Complete documentation of WFS usage
-> https://docs.geoserver.org/stable/en/user/services/wfs/index.html
+> https://docs.geoserver.org/2.16.x/en/user/services/wfs/index.html
 
 ## To query the service and return all existing "Region of Interest" (ROI) features as JSON:
 > http://localhost:9000/geoserver/focgeo/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=focgeo:roi&outputFormat=JSON

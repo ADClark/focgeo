@@ -103,9 +103,9 @@ A few basic sample queries are defined under ./queries/restQueries.md
 
 #### Active GeoServer Extensions
 
-* app-schema: https://docs.geoserver.org/stable/en/user/data/app-schema/
+* app-schema: https://docs.geoserver.org/2.16.x/en/user/data/app-schema/
 
-* importer: https://docs.geoserver.org/stable/en/user/extensions/importer/index.html
+* importer: https://docs.geoserver.org/2.16.x/en/user/extensions/importer/index.html
 
 * Kartoza default extensions loaded in setup.sh:
   * vectortiles
