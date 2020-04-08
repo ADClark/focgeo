@@ -61,7 +61,7 @@ To connect to the PostGIS database as a Geoserver Vector Data Source for a given
 
 * Connection Parameters:
   - host : db
-  - port : 25432
+  - port : 5432
   - database : focgeo
   - schema : public
   - user : *specified in db.env*
