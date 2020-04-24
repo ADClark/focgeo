@@ -6,6 +6,9 @@
     <atom:link rel="alternate" href="http://localhost:9000/geoserver/rest/namespaces/focgeo.xml" type="application/xml"/>
   </namespace>
   <title>roi</title>
+  <abstract>
+    Requested regions of interest.
+  </abstract>
   <keywords>
     <string>features</string>
     <string>roi</string>
@@ -32,8 +35,8 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
-    <name>focgeo:focgeo_store</name>
-    <atom:link rel="alternate" href="http://localhost:9000/geoserver/rest/workspaces/focgeo/datastores/focgeo_store.xml" type="application/xml"/>
+    <name>focgeo:focgeo</name>
+    <atom:link rel="alternate" href="http://localhost:9000/geoserver/rest/workspaces/focgeo/datastores/focgeo.xml" type="application/xml"/>
   </store>
   <serviceConfiguration>false</serviceConfiguration>
   <maxFeatures>0</maxFeatures>
@@ -44,13 +47,6 @@
   <skipNumberMatched>false</skipNumberMatched>
   <circularArcPresent>false</circularArcPresent>
   <attributes>
-    <attribute>
-      <name>fid</name>
-      <minOccurs>1</minOccurs>
-      <maxOccurs>1</maxOccurs>
-      <nillable>false</nillable>
-      <binding>java.lang.Integer</binding>
-    </attribute>
     <attribute>
       <name>geometry</name>
       <minOccurs>1</minOccurs>
